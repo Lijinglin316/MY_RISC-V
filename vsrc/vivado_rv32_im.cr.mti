@@ -1,0 +1,192 @@
+D:/desktop/vsrc/GPR.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/GPR.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module GPR
+
+Top level modules:
+	GPR
+
+} {} {}} D:/desktop/vsrc/PC.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/PC.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} D:/desktop/vsrc/DIV.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/DIV.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module DIV
+
+Top level modules:
+	DIV
+
+} {} {}} D:/desktop/vsrc/DIV_sign.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/DIV_sign.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module DIV_SIGN
+
+Top level modules:
+	DIV_SIGN
+
+} {} {}} D:/desktop/vsrc/M_WB.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/M_WB.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module M_WB
+
+Top level modules:
+	M_WB
+
+} {} {}} D:/desktop/vsrc/adder_32bits.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/adder_32bits.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_32bits
+-- Compiling module adder_4bits
+
+Top level modules:
+	adder_32bits
+
+} {} {}} D:/desktop/vsrc/cpu_tb.sv {2 {vlog -work work -vopt -sv -stats=none D:/desktop/vsrc/cpu_tb.sv
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module cpu_tb
+** Warning: D:/desktop/vsrc/cpu_tb.sv(283): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	cpu_tb
+
+} {} {}} D:/desktop/vsrc/ID_EX.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/ID_EX.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} D:/desktop/vsrc/CONTROL.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/CONTROL.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module CONTROL
+
+Top level modules:
+	CONTROL
+
+} {} {}} D:/desktop/vsrc/EX_M.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/EX_M.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module EX_M
+
+Top level modules:
+	EX_M
+
+} {} {}} D:/desktop/vsrc/ALU.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/ALU.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ALU
+-- Compiling module and_unit
+-- Compiling module or_unit
+-- Compiling module xor_unit
+-- Compiling module mux8_to_1
+-- Compiling module shifter
+-- Compiling module alu_op_control
+
+Top level modules:
+	ALU
+
+} {} {}} D:/desktop/vsrc/FORWARDING.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/FORWARDING.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module FORWARDING
+
+Top level modules:
+	FORWARDING
+
+} {} {}} D:/desktop/vsrc/define.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/define.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+
+} {} {}} D:/desktop/vsrc/IF_ID.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/IF_ID.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} D:/desktop/vsrc/mem32bit.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/mem32bit.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mem32bit
+
+Top level modules:
+	mem32bit
+
+} {} {}} D:/desktop/vsrc/IMM_GEN.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/IMM_GEN.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module IMM_GEN
+
+Top level modules:
+	IMM_GEN
+
+} {} {}} D:/desktop/vsrc/MUX2_1.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/MUX2_1.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module MUX2_1
+
+Top level modules:
+	MUX2_1
+
+} {} {}} D:/desktop/vsrc/MUX3_1.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/MUX3_1.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module MUX3_1
+
+Top level modules:
+	MUX3_1
+
+} {} {}} D:/desktop/vsrc/BW_MUT.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/BW_MUT.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module BW_MUT
+-- Compiling module booth_encoder
+-- Compiling module booth_selector
+-- Compiling module dff
+-- Compiling module dff_64
+-- Compiling module ha
+
+Top level modules:
+	BW_MUT
+
+} {} {}} D:/desktop/vsrc/mem8bit.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/mem8bit.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mem8bit
+
+Top level modules:
+	mem8bit
+
+} {} {}} D:/desktop/vsrc/MUX4_1.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/MUX4_1.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module MUX6_1
+
+Top level modules:
+	MUX6_1
+
+} {} {}} D:/desktop/vsrc/BPU.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/BPU.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module BPU
+-- Compiling module sat_counter
+-- Compiling module onehot_counter
+-- Compiling module pc_m
+-- Compiling module mux10_1
+-- Compiling module mux10_1_32bits
+
+Top level modules:
+	BPU
+
+} {} {}} D:/desktop/vsrc/MEM.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/MEM.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module MEM
+
+Top level modules:
+	MEM
+
+} {} {}} D:/desktop/vsrc/cpu.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/cpu.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module cpu
+-- Compiling module dff1bits
+
+Top level modules:
+	cpu
+
+} {} {}} D:/desktop/vsrc/MEM1.v {1 {vlog -work work -vopt -stats=none D:/desktop/vsrc/MEM1.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module MEM1
+
+Top level modules:
+	MEM1
+
+} {} {}}

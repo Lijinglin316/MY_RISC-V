@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN U18 [get_ports clk]
+set_property PACKAGE_PIN E19 [get_ports rst_n]
+set_property PACKAGE_PIN L15 [get_ports en]
+set_property PACKAGE_PIN K19 [get_ports uart_tx]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports rst_n]
+set_property IOSTANDARD LVCMOS33 [get_ports en]
+set_property IOSTANDARD LVCMOS33 [get_ports uart_tx]

@@ -1,0 +1,28 @@
+import os
+
+# 只处理当前文件夹下的 .hex 文件
+INPUT_DIR = "."
+
+def process_hex_line(line):
+    line = line.rstrip("\n")
+    if line.startswith("@"):
+        return [line]
+    line_clean = line.replace(" ", "")
+    if not line_clean:
+        return []
+    return [line_clean[i:i+2] for i in range(0, len(line_clean), 2)]
+
+for filename in os.listdir(INPUT_DIR):
+    if filename.lower().endswith(".hex"):
+        path = os.path.join(INPUT_DIR, filename)
+        print("Processing file:", filename)
+        
+        with open(path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+        
+        with open(path, "w", encoding="utf-8") as f:
+            for line in lines:
+                for l in process_hex_line(line):
+                    f.write(l + "\n")
+
+print("\nAll files processed successfully!")

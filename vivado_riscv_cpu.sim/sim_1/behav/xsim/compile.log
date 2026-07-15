@@ -1,0 +1,60 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vivado_riscv_cpu/vivado_riscv_cpu.gen/sources_1/ip/ip_mem/sim/ip_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module and_unit
+INFO: [VRFC 10-311] analyzing module or_unit
+INFO: [VRFC 10-311] analyzing module xor_unit
+INFO: [VRFC 10-311] analyzing module mux8_to_1
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-311] analyzing module alu_op_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/BPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BPU
+INFO: [VRFC 10-311] analyzing module sat_counter
+INFO: [VRFC 10-311] analyzing module onehot_counter
+INFO: [VRFC 10-311] analyzing module pc_m
+INFO: [VRFC 10-311] analyzing module mux10_1
+INFO: [VRFC 10-311] analyzing module mux10_1_32bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/BW_MUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BW_MUT
+INFO: [VRFC 10-311] analyzing module booth_encoder
+INFO: [VRFC 10-311] analyzing module booth_selector
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-311] analyzing module dff_64
+INFO: [VRFC 10-311] analyzing module ha
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/CONTROL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/DIV_sign.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_SIGN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/EX_M.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_M
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/FORWARDING.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FORWARDING
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/GPR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/IF_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/IMM_GEN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMM_GEN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vivado_riscv_cpu/vivado_riscv_cpu.srcs/sources_1/new/MEM_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/MUX3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/MUX4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX6_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/M_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module M_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/adder_32bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_32bits
+INFO: [VRFC 10-311] analyzing module adder_4bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/vsrc/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-311] analyzing module dff1bits

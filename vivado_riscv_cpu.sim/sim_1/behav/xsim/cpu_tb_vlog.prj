@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../vivado/2025.2/Vivado/data/rsb/busdef" \
+"../../../../vivado_riscv_cpu.gen/sources_1/ip/ip_mem/sim/ip_mem.v" \
+"../../../../../vsrc/ALU.v" \
+"../../../../../vsrc/BPU.v" \
+"../../../../../vsrc/BW_MUT.v" \
+"../../../../../vsrc/CONTROL.v" \
+"../../../../../vsrc/DIV.v" \
+"../../../../../vsrc/DIV_sign.v" \
+"../../../../../vsrc/EX_M.v" \
+"../../../../../vsrc/FORWARDING.v" \
+"../../../../../vsrc/GPR.v" \
+"../../../../../vsrc/ID_EX.v" \
+"../../../../../vsrc/IF_ID.v" \
+"../../../../../vsrc/IMM_GEN.v" \
+"../../../../vivado_riscv_cpu.srcs/sources_1/new/MEM_cpu.v" \
+"../../../../../vsrc/MUX2_1.v" \
+"../../../../../vsrc/MUX3_1.v" \
+"../../../../../vsrc/MUX4_1.v" \
+"../../../../../vsrc/M_WB.v" \
+"../../../../../vsrc/PC.v" \
+"../../../../../vsrc/adder_32bits.v" \
+"../../../../../vsrc/cpu.v" \
+
+sv xil_defaultlib  --include "../../../../../../vivado/2025.2/Vivado/data/rsb/busdef" \
+"../../../../vivado_riscv_cpu.srcs/sim_1/new/cpu_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
